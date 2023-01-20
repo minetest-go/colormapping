@@ -101,6 +101,7 @@ func (m *ColorMapping) LoadDefaults() error {
 		"custom.txt",
 		"mc2.txt",
 		"miles.txt",
+		"naturalbiomes.txt",
 		"mtg.txt",
 		"nodecore.txt",
 		"scifi_nodes.txt",
