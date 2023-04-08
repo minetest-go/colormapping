@@ -99,6 +99,7 @@ func (m *ColorMapping) LoadDefaults() error {
 	list := []string{
 		"advtrains.txt",
 		"custom.txt",
+		"everness.txt",
 		"mc2.txt",
 		"miles.txt",
 		"naturalbiomes.txt",
