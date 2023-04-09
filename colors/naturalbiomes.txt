@@ -64,6 +64,36 @@ naturalbiomes:heatherflower3node 109 68 98
 naturalbiomes:heatherflower4node 216 148 171
 
 
+# bushland
+
+naturalbiomes:bushland_bushlandlitter2 104 102 69
+naturalbiomes:bushland_bushlandlitter3 150 145 112
+naturalbiomes:bushland_bushlandlitter 114 138 77
+naturalbiomes:bushland_grass 108 134 56
+naturalbiomes:bushland_grass2 100 111 60
+naturalbiomes:bushland_grass3 96 107 75
+naturalbiomes:bushland_grass4 116 137 51
+naturalbiomes:bushland_grass5 86 94 72
+naturalbiomes:bushland_grass6 175 148 111
+naturalbiomes:bushland_grass7 103 100 60
+naturalbiomes:bushland_blackberry_stem 143 100 70
+naturalbiomes:bushland_blackberry_leaves2 70 78 49
+naturalbiomes:bushland_blackberry_leaves 85 93 55
+naturalbiomes:bushland_blackberrybush_sapling 133 126 72
+naturalbiomes:blackberry 68 61 60
+naturalbiomes:bushland_wildrose_stem 82 92 68
+naturalbiomes:bushland_wildrose_leaves2 86 90 65
+naturalbiomes:bushland_wildrose_leaves 56 72 41
+naturalbiomes:bushland_wildrosebush_sapling 70 82 56
+naturalbiomes:wildrose 208 42 41
+naturalbiomes:bushland_hazelnut_stem 161 135 97
+naturalbiomes:bushland_hazelnut_leaves2 95 125 29
+naturalbiomes:bushland_hazelnut_leaves 82 134 27
+naturalbiomes:bushland_hazelnutbush_sapling 146 175 110
+naturalbiomes:hazelnut 178 110 75
+naturalbiomes:bushland_deadbush_leaves 201 170 105
+
+
 # crafting
 
 stairs:slab_naturalbiomes_adler_reed_bundle 94 76 57
@@ -96,6 +126,32 @@ naturalbiomes:bamboo_brick 143 106 76
 naturalbiomes:beach_brick 155 127 89
 naturalbiomes:med_brick 150 145 129
 naturalbiomes:outback_brick 171 119 83
+naturalbiomes:acacia_trapdoor 100 81 55
+naturalbiomes_acacia_door 95 74 52
+naturalbiomes:alder_trapdoor 112 94 58
+naturalbiomes_alder_door 115 97 60
+naturalbiomes:alpine_trapdoor 158 112 39
+naturalbiomes_alpine_door 151 111 46
+naturalbiomes:alpine2_trapdoor 109 84 57
+naturalbiomes_alpine2_door 126 99 68
+naturalbiomes:bamboo_trapdoor 113 112 50
+naturalbiomes_bamboo_door 115 114 52
+naturalbiomes:banana_trapdoor 83 65 40
+naturalbiomes_banana_door 93 77 41
+naturalbiomes:birch_trapdoor 88 88 91
+naturalbiomes_birch_door 87 96 106
+naturalbiomes:coconut_trapdoor 127 92 49
+naturalbiomes_coconut_door 129 95 59
+naturalbiomes:juniper_trapdoor 129 93 69
+naturalbiomes_juniper_door 133 99 74
+naturalbiomes:medpine_trapdoor 151 93 54
+naturalbiomes_medpine_door 170 108 61
+naturalbiomes:olive_trapdoor 98 47 7
+naturalbiomes_olive_door 96 46 7
+naturalbiomes:eucalyptus_trapdoor 118 101 87
+naturalbiomes_eucalyptus_door 118 99 83
+naturalbiomes:willow_trapdoor 115 98 77
+naturalbiomes_willow_door 130 111 87
 
 
 # bambooforest
@@ -319,6 +375,7 @@ naturalbiomes:med_flower3 79 76 57
 naturalbiomes:med_grass1 93 93 50
 naturalbiomes:med_grass2 96 96 51
 naturalbiomes:olives 88 83 67
+
 
 # wetsavanna
 
