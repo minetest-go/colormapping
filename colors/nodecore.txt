@@ -1,3 +1,20 @@
+# nc_api_active
+nc_api_active:light1 128 128 128 0
+nc_api_active:light10 128 128 128 0
+nc_api_active:light11 128 128 128 0
+nc_api_active:light12 128 128 128 0
+nc_api_active:light13 128 128 128 0
+nc_api_active:light14 128 128 128 0
+nc_api_active:light2 128 128 128 0
+nc_api_active:light3 128 128 128 0
+nc_api_active:light4 128 128 128 0
+nc_api_active:light5 128 128 128 0
+nc_api_active:light6 128 128 128 0
+nc_api_active:light7 128 128 128 0
+nc_api_active:light8 128 128 128 0
+nc_api_active:light9 128 128 128 0
+nc_api_active:shade 128 128 128 0
+
 # nc_adamant
 nc_adamant:bar_annealed 107 124 133
 nc_adamant:bar_hot 225 245 156
@@ -29,11 +46,74 @@ nc_adamant:stone_5 72 72 72
 nc_adamant:stone_6 72 72 72
 nc_adamant:stone_7 72 72 72
 
+# nc_beacon
+nc_beacon:beacon 238 76 0
+
+# nc_cats
+nc_cats:cat_1 146 146 146
+nc_cats:cat_2 51 51 51
+nc_cats:cat_3 25 25 25
+nc_cats:cat_4 205 102 0
+nc_cats:cat_5 240 164 44
+nc_cats:cat_6 102 51 0
+nc_cats:cat_7 146 119 92
+nc_cats:cobble 62 52 59
+nc_cats:cobble_loose 62 52 59
+nc_cats:egg 81 60 54
+nc_cats:egg_loose 81 60 54
+nc_cats:longcat_back_1 146 146 146
+nc_cats:longcat_back_2 51 51 51
+nc_cats:longcat_back_3 25 25 25
+nc_cats:longcat_back_4 205 102 0
+nc_cats:longcat_back_5 240 164 44
+nc_cats:longcat_back_6 102 51 0
+nc_cats:longcat_back_7 146 119 92
+nc_cats:longcat_front_1 146 146 146
+nc_cats:longcat_front_2 51 51 51
+nc_cats:longcat_front_3 25 25 25
+nc_cats:longcat_front_4 205 102 0
+nc_cats:longcat_front_5 240 164 44
+nc_cats:longcat_front_6 102 51 0
+nc_cats:longcat_front_7 146 119 92
+nc_cats:longcat_mid_1 146 146 146
+nc_cats:longcat_mid_2 51 51 51
+nc_cats:longcat_mid_3 25 25 25
+nc_cats:longcat_mid_4 205 102 0
+nc_cats:longcat_mid_5 240 164 44
+nc_cats:longcat_mid_6 102 51 0
+nc_cats:longcat_mid_7 146 119 92
+nc_cats:ore 69 58 53
+nc_cats:ore_1 69 58 53
+nc_cats:ore_2 69 58 53
+nc_cats:ore_3 69 58 53
+nc_cats:ore_4 69 58 53
+nc_cats:ore_5 69 58 53
+nc_cats:ore_6 69 58 53
+nc_cats:ore_7 69 58 53
+
+# nc_chess
+nc_chess:bishop_black 72 72 72 96
+nc_chess:bishop_white 220 220 220 96
+nc_chess:king_black 72 72 72 96
+nc_chess:king_white 220 220 220 96
+nc_chess:knight_black 72 72 72 96
+nc_chess:knight_white 220 220 220 96
+nc_chess:pawn_black 72 72 72 96
+nc_chess:pawn_white 220 220 220 96
+nc_chess:queen_black 72 72 72 96
+nc_chess:queen_white 220 220 220 96
+nc_chess:rook_black 72 72 72 96
+nc_chess:rook_white 220 220 220 96
+
 # nc_concrete
 nc_concrete:adobe 57 43 28
 nc_concrete:aggregate 65 65 65
 nc_concrete:aggregate_wet_flowing 72 72 72
 nc_concrete:aggregate_wet_source 72 72 72
+nc_concrete:cloudmix 220 220 220
+nc_concrete:cloudmix_wet_flowing 220 220 220
+nc_concrete:cloudmix_wet_source 220 220 220
+nc_concrete:cloudstone 220 220 220
 nc_concrete:coalaggregate_wet_flowing 72 72 72
 nc_concrete:coalaggregate_wet_source 72 72 72
 nc_concrete:coalstone 72 72 72
@@ -71,6 +151,23 @@ nc_concrete:concrete_coalstone_vermy 72 72 72
 nc_concrete:concrete_coalstone_vermy_ply 72 72 72
 nc_concrete:concrete_coalstone_verty 72 72 72
 nc_concrete:concrete_coalstone_verty_ply 72 72 72
+nc_concrete:concrete_cloudstone_bindy 220 220 220
+nc_concrete:concrete_cloudstone_bindy_ply 220 220 220
+nc_concrete:concrete_cloudstone_blank_ply 220 220 220
+nc_concrete:concrete_cloudstone_boxy 220 220 220
+nc_concrete:concrete_cloudstone_boxy_ply 220 220 220
+nc_concrete:concrete_cloudstone_bricky 220 220 220
+nc_concrete:concrete_cloudstone_bricky_ply 220 220 220
+nc_concrete:concrete_cloudstone_hashy 220 220 220
+nc_concrete:concrete_cloudstone_hashy_ply 220 220 220
+nc_concrete:concrete_cloudstone_horzy 220 220 220
+nc_concrete:concrete_cloudstone_horzy_ply 220 220 220
+nc_concrete:concrete_cloudstone_iceboxy 220 220 220
+nc_concrete:concrete_cloudstone_iceboxy_ply 220 220 220
+nc_concrete:concrete_cloudstone_vermy 220 220 220
+nc_concrete:concrete_cloudstone_vermy_ply 220 220 220
+nc_concrete:concrete_cloudstone_verty 220 220 220
+nc_concrete:concrete_cloudstone_verty_ply 220 220 220
 nc_concrete:concrete_sandstone_bindy 160 161 89
 nc_concrete:concrete_sandstone_bindy_ply 160 161 89
 nc_concrete:concrete_sandstone_blank_ply 160 161 89
@@ -116,12 +213,14 @@ nc_concrete:terrain_stone_verty_ply 72 72 72
 # nc_doors
 nc_doors:door_bricks_adobe_bonded 57 43 28
 nc_doors:door_bricks_coalstone_bonded 72 72 72
+nc_doors:door_bricks_cloudstone_bonded 220 220 220
 nc_doors:door_cobble 65 65 65
 nc_doors:door_plank 180 144 89
 nc_doors:door_bricks_sandstone_bonded 160 161 89
 nc_doors:door_bricks_stone_bonded 72 72 72
 nc_doors:panel_bricks_adobe_bonded 57 43 28
 nc_doors:panel_bricks_coalstone_bonded 72 72 72
+nc_doors:panel_bricks_cloudstone_bonded 220 220 220
 nc_doors:panel_cobble 65 65 65
 nc_doors:panel_plank 180 144 89
 nc_doors:panel_bricks_sandstone_bonded 160 161 89
@@ -154,63 +253,63 @@ nc_fire:ember8 158 158 158
 nc_fire:fire 244 182 94
 
 # nc_flora
-nc_flora:flower_1_0 123 122 100
-nc_flora:flower_1_1 210 51 121
-nc_flora:flower_1_2 216 0 0
-nc_flora:flower_1_3 193 97 0
-nc_flora:flower_1_4 186 186 0
-nc_flora:flower_1_5 173 173 173
-nc_flora:flower_1_6 57 132 155
-nc_flora:flower_1_7 36 36 254
-nc_flora:flower_1_8 89 0 178
-nc_flora:flower_1_9 32 32 32
-nc_flora:flower_2_0 123 122 100
-nc_flora:flower_2_1 210 51 121
-nc_flora:flower_2_2 216 0 0
-nc_flora:flower_2_3 193 97 0
-nc_flora:flower_2_4 186 186 0
-nc_flora:flower_2_5 173 173 173
-nc_flora:flower_2_6 57 132 155
-nc_flora:flower_2_7 36 36 254
-nc_flora:flower_2_8 89 0 178
-nc_flora:flower_2_9 32 32 32
-nc_flora:flower_3_0 123 122 100
-nc_flora:flower_3_1 210 51 121
-nc_flora:flower_3_2 216 0 0
-nc_flora:flower_3_3 193 97 0
-nc_flora:flower_3_4 186 186 0
-nc_flora:flower_3_5 173 173 173
-nc_flora:flower_3_6 57 132 155
-nc_flora:flower_3_7 36 36 254
-nc_flora:flower_3_8 89 0 178
-nc_flora:flower_3_9 32 32 32
-nc_flora:flower_4_0 123 122 100
-nc_flora:flower_4_1 210 51 121
-nc_flora:flower_4_2 216 0 0
-nc_flora:flower_4_3 193 97 0
-nc_flora:flower_4_4 186 186 0
-nc_flora:flower_4_5 173 173 173
-nc_flora:flower_4_6 57 132 155
-nc_flora:flower_4_7 36 36 254
-nc_flora:flower_4_8 89 0 178
-nc_flora:flower_4_9 32 32 32
-nc_flora:flower_5_0 123 122 100
-nc_flora:flower_5_1 210 51 121
-nc_flora:flower_5_2 216 0 0
-nc_flora:flower_5_3 193 97 0
-nc_flora:flower_5_4 186 186 0
-nc_flora:flower_5_5 173 173 173
-nc_flora:flower_5_6 57 132 155
-nc_flora:flower_5_7 36 36 254
-nc_flora:flower_5_8 89 0 178
-nc_flora:flower_5_9 32 32 32
-nc_flora:rush 69 86 23
-nc_flora:rush_dry 79 74 25
-nc_flora:sedge_1 80 106 50
-nc_flora:sedge_2 80 106 50
-nc_flora:sedge_3 80 106 50
-nc_flora:sedge_4 80 106 50
-nc_flora:sedge_5 80 106 50
+nc_flora:flower_1_0 123 122 100 64
+nc_flora:flower_1_1 210 51 121 64
+nc_flora:flower_1_2 216 0 0 64
+nc_flora:flower_1_3 193 97 0 64
+nc_flora:flower_1_4 186 186 0 64
+nc_flora:flower_1_5 173 173 173 64
+nc_flora:flower_1_6 57 132 155 64
+nc_flora:flower_1_7 36 36 254 64
+nc_flora:flower_1_8 89 0 178 64
+nc_flora:flower_1_9 32 32 32 64
+nc_flora:flower_2_0 123 122 100 64
+nc_flora:flower_2_1 210 51 121 64
+nc_flora:flower_2_2 216 0 0 64
+nc_flora:flower_2_3 193 97 0 64
+nc_flora:flower_2_4 186 186 0 64
+nc_flora:flower_2_5 173 173 173 64
+nc_flora:flower_2_6 57 132 155 64
+nc_flora:flower_2_7 36 36 254 64
+nc_flora:flower_2_8 89 0 178 64
+nc_flora:flower_2_9 32 32 32 64
+nc_flora:flower_3_0 123 122 100 64
+nc_flora:flower_3_1 210 51 121 64
+nc_flora:flower_3_2 216 0 0 64
+nc_flora:flower_3_3 193 97 0 64
+nc_flora:flower_3_4 186 186 0 64
+nc_flora:flower_3_5 173 173 173 64
+nc_flora:flower_3_6 57 132 155 64
+nc_flora:flower_3_7 36 36 254 64
+nc_flora:flower_3_8 89 0 178 64
+nc_flora:flower_3_9 32 32 32 64
+nc_flora:flower_4_0 123 122 100 64
+nc_flora:flower_4_1 210 51 121 64
+nc_flora:flower_4_2 216 0 0 64
+nc_flora:flower_4_3 193 97 0 64
+nc_flora:flower_4_4 186 186 0 64
+nc_flora:flower_4_5 173 173 173 64
+nc_flora:flower_4_6 57 132 155 64
+nc_flora:flower_4_7 36 36 254 64
+nc_flora:flower_4_8 89 0 178 64
+nc_flora:flower_4_9 32 32 32 64
+nc_flora:flower_5_0 123 122 100 64
+nc_flora:flower_5_1 210 51 121 64
+nc_flora:flower_5_2 216 0 0 64
+nc_flora:flower_5_3 193 97 0 64
+nc_flora:flower_5_4 186 186 0 64
+nc_flora:flower_5_5 173 173 173 64
+nc_flora:flower_5_6 57 132 155 64
+nc_flora:flower_5_7 36 36 254 64
+nc_flora:flower_5_8 89 0 178 64
+nc_flora:flower_5_9 32 32 32 64
+nc_flora:rush 69 86 23 128
+nc_flora:rush_dry 79 74 25 128
+nc_flora:sedge_1 80 106 50 128
+nc_flora:sedge_2 80 106 50 128
+nc_flora:sedge_3 80 106 50 128
+nc_flora:sedge_4 80 106 50 128
+nc_flora:sedge_5 80 106 50 128
 nc_flora:thatch 132 135 87
 nc_flora:wicker 81 63 45 208
 
@@ -218,6 +317,30 @@ nc_flora:wicker 81 63 45 208
 nc_igneous:amalgam 238 76 0
 nc_igneous:amalgam_loose 238 76 0
 nc_igneous:pumice 79 79 79
+
+# nc_items
+nc_items:bulk_nc_fire__ash 128 128 128 32
+nc_items:bulk_nc_terrain__cobble 128 128 128 32
+nc_items:bulk_nc_terrain__cobble_loose 128 128 128 32
+nc_items:bulk_nc_terrain__dirt 128 128 128 32
+nc_items:bulk_nc_terrain__dirt_loose 128 128 128 32
+nc_items:bulk_nc_terrain__gravel 128 128 128 32
+nc_items:bulk_nc_terrain__gravel_loose 128 128 128 32
+nc_items:bulk_nc_terrain__sand 128 128 128 32
+nc_items:bulk_nc_terrain__sand_loose 128 128 128 32
+nc_items:bulk_nc_terrain__stone 128 128 128 32
+nc_items:bulk_nc_tree__leaves_loose 128 128 128 32
+nc_items:stack 128 128 128 32
+
+# nc_lantern
+nc_lantern:lamp0 162 202 222
+nc_lantern:lamp1 166 203 221
+nc_lantern:lamp2 172 205 219
+nc_lantern:lamp3 181 208 216
+nc_lantern:lamp4 192 212 211
+nc_lantern:lamp5 205 218 203
+nc_lantern:lamp6 223 226 191
+nc_lantern:lamp7 242 236 172
 
 # nc_light
 nc_light:lantern_1 57 39 35
@@ -273,9 +396,7 @@ nc_lode:block_tempered 57 39 35
 nc_lode:cobble 67 43 32
 nc_lode:cobble_hot 65 65 65
 nc_lode:cobble_loose 67 43 32
-nc_lode:form_annealed 47 36 32
-nc_lode:form_hot 131 23 18
-nc_lode:form_tempered 57 39 35
+nc_lode:form 47 36 32
 nc_lode:frame_annealed 47 36 32
 nc_lode:frame_hot 131 23 18
 nc_lode:frame_tempered 57 39 35
@@ -302,6 +423,7 @@ nc_lode:stone_4 72 72 72
 nc_lode:stone_5 72 72 72
 nc_lode:stone_6 72 72 72
 nc_lode:stone_7 72 72 72
+nc_lode:stone_cracked 72 72 72
 
 # nc_lux
 nc_lux:cobble1 65 65 65
@@ -385,11 +507,19 @@ nc_optics:glass_crude 255 255 255 128
 nc_optics:glass_float 255 255 255 16
 nc_optics:glass_opaque 139 187 212
 nc_optics:lens 139 187 212
+nc_optics:lens_glued 139 187 212
+nc_optics:lens_glow_start 139 187 212
+nc_optics:lens_glow_start_glued 139 187 212
 nc_optics:lens_glow 139 187 212
+nc_optics:lens_glow_glued 139 187 212
 nc_optics:lens_on 139 187 212
+nc_optics:lens_on_glued 139 187 212
 nc_optics:prism 139 187 212
+nc_optics:prism_glued 139 187 212
 nc_optics:prism_gated 139 187 212
+nc_optics:prism_gated_glued 139 187 212
 nc_optics:prism_on 139 187 212
+nc_optics:prism_on_glued 139 187 212
 nc_optics:shelf 255 255 255 128
 nc_optics:shelf_float 255 255 255 80
 
@@ -403,6 +533,13 @@ nc_player_health:injured 94 83 83
 nc_rabbits:rabbit_head 102 100 97
 nc_rabbits:rabbit_hole 39 98 15
 nc_rabbits:trap 102 97 94
+
+# nc_scaling
+nc_scaling:ceil 0 0 0 0
+nc_scaling:displaced 0 0 0 0
+nc_scaling:floor 0 0 0 0
+nc_scaling:hang 0 0 0 0
+nc_scaling:wall 0 0 0 0
 
 # nc_skyrealm
 nc_skyrealm:dirty_gravel 65 65 65
@@ -466,6 +603,8 @@ nc_stonework:bricks_adobe 57 43 28
 nc_stonework:bricks_adobe_bonded 57 43 28
 nc_stonework:bricks_coalstone 72 72 72
 nc_stonework:bricks_coalstone_bonded 72 72 72
+nc_stonework:bricks_cloudstone 220 220 220
+nc_stonework:bricks_cloudstone_bonded 220 220 220
 nc_stonework:bricks_sandstone 160 161 89
 nc_stonework:bricks_sandstone_bonded 160 161 89
 nc_stonework:bricks_stone 72 72 72
@@ -625,6 +764,8 @@ nc_terrain:hard_stone_6 72 72 72
 nc_terrain:hard_stone_7 72 72 72
 nc_terrain:lava_flowing 238 76 0
 nc_terrain:lava_source 238 76 0
+nc_terrain:river_water_flowing 0 29 174 128
+nc_terrain:river_water_source 0 29 174 128
 nc_terrain:sand 159 160 90
 nc_terrain:sand_loose 159 160 90
 nc_terrain:stone 72 72 72
@@ -675,18 +816,18 @@ nc_woodwork:staff 161 124 79
 # nc_writing
 nc_writing:dirt_raked 78 50 26
 nc_writing:dirt_raked_nexus 78 50 26
-nc_writing:glyph1 9 9 9
-nc_writing:glyph10 8 8 8
-nc_writing:glyph11 8 8 8
-nc_writing:glyph12 8 8 8
-nc_writing:glyph2 8 8 8
-nc_writing:glyph3 9 9 9
-nc_writing:glyph4 9 9 9
-nc_writing:glyph5 8 8 8
-nc_writing:glyph6 0 0 0
-nc_writing:glyph7 0 0 0
-nc_writing:glyph8 8 8 8
-nc_writing:glyph9 8 8 8
+nc_writing:glyph1 8 8 8 32
+nc_writing:glyph10 8 8 8 32
+nc_writing:glyph11 8 8 8 32
+nc_writing:glyph12 8 8 8 32
+nc_writing:glyph2 8 8 8 32
+nc_writing:glyph3 8 8 8 32
+nc_writing:glyph4 8 8 8 32
+nc_writing:glyph5 8 8 8 32
+nc_writing:glyph6 8 8 8 32
+nc_writing:glyph7 8 8 8 32
+nc_writing:glyph8 8 8 8 32
+nc_writing:glyph9 8 8 8 32
 nc_writing:gravel_raked 65 65 65
 nc_writing:gravel_raked_nexus 65 65 65
 nc_writing:humus_raked 68 43 15
