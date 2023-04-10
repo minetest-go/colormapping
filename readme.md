@@ -20,4 +20,7 @@ assert.Equal(t, uint8(20), c.B)
 
 # License
 
+Assets:
+* `colors/unifieddyes_palette_extended.png` GPL 2.0 or higher (https://github.com/mt-mods/unifieddyes)
+
 Code: **MIT**
