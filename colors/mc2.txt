@@ -341,11 +341,17 @@ mcl_trees:stripped_birch 170 135 108
 mcl_core:stripped_birch_bark 179 143 115
 mcl_trees:bark_stripped_birch 179 143 115
 mcl_core:stripped_dark_oak 90 78 68
+mcl_trees:stripped_dark_oak 90 78 68
 mcl_core:stripped_dark_oak_bark 91 78 70
+mcl_trees:bark_stripped_dark_oak 91 78 70
 mcl_core:stripped_jungle 170 113 83
+mcl_trees:stripped_jungle 170 113 83
 mcl_core:stripped_jungle_bark 175 117 86
+mcl_trees:bark_stripped_jungle 175 117 86
 mcl_core:stripped_oak 153 115 80
+mcl_trees:stripped_oak 153 115 80
 mcl_core:stripped_oak_bark 162 122 84
+mcl_trees:bark_stripped_oak 162 122 84
 mcl_core:stripped_spruce 107 79 64
 mcl_trees:stripped_spruce 107 79 64
 mcl_core:stripped_spruce_bark 109 81 67
