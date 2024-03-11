@@ -26,6 +26,18 @@ func TestNewMapping(t *testing.T) {
 	c = m.GetColor("unifiedbricks:brickblock_multicolor_dark", 100)
 	assert.NotNil(t, c)
 
+	c = m.GetColor("mymod:my_red_node", 0)
+	assert.NotNil(t, c)
+	assert.Equal(t, uint8(107), c.R)
+	assert.Equal(t, uint8(54), c.G)
+	assert.Equal(t, uint8(53), c.B)
+
+	c = m.GetColor("mymod:my_dark_red_node", 0)
+	assert.NotNil(t, c)
+	assert.Equal(t, uint8(107-30), c.R)
+	assert.Equal(t, uint8(54-30), c.G)
+	assert.Equal(t, uint8(53-30), c.B)
+
 }
 
 func TestNewMappingErrors(t *testing.T) {

@@ -8,6 +8,7 @@ import (
 	"image/color"
 	"strconv"
 	"strings"
+	"sync"
 )
 
 //go:embed colors/*
@@ -17,6 +18,32 @@ type ColorMapping struct {
 	colors               map[string]*color.RGBA
 	extendedpaletteblock map[string]bool
 	extendedpalette      *Palette
+	mutex                *sync.RWMutex
+}
+
+var simpleNamedColors = map[string]*color.RGBA{
+	"black":   {R: 32, G: 32, B: 32, A: 255},
+	"blue":    {R: 59, G: 68, B: 93, A: 255},
+	"grey":    {R: 150, G: 148, B: 149, A: 255},
+	"gray":    {R: 150, G: 148, B: 149, A: 255},
+	"green":   {R: 93, G: 112, B: 70, A: 255},
+	"orange":  {R: 154, G: 116, B: 75, A: 255},
+	"pink":    {R: 183, G: 150, B: 160, A: 255},
+	"brown":   {R: 48, G: 39, B: 31, A: 255},
+	"cyan":    {R: 60, G: 96, B: 100, A: 255},
+	"magenta": {R: 118, G: 93, B: 119, A: 255},
+	"red":     {R: 107, G: 54, B: 53, A: 255},
+	"violet":  {R: 70, G: 52, B: 83, A: 255},
+	"white":   {R: 231, G: 223, B: 225, A: 255},
+	"yellow":  {R: 155, G: 136, B: 75, A: 255},
+}
+
+func maxUint8(i1, i2 uint8) uint8 {
+	if i1 > i2 {
+		return i1
+	} else {
+		return i2
+	}
 }
 
 func (m *ColorMapping) GetColor(name string, param2 int) *color.RGBA {
@@ -26,7 +53,38 @@ func (m *ColorMapping) GetColor(name string, param2 int) *color.RGBA {
 		return m.extendedpalette.GetColor(param2)
 	}
 
-	return m.colors[name]
+	m.mutex.RLock()
+	c := m.colors[name]
+	if c != nil {
+		// perfect match found
+		m.mutex.RUnlock()
+		return c
+	}
+	m.mutex.RUnlock()
+
+	// fall back to simple color-name matching
+	for scname, sc := range simpleNamedColors {
+		if strings.Contains(name, "dark_"+scname) || strings.Contains(name, scname+"_dark") {
+			// dark color
+			c = &color.RGBA{
+				R: maxUint8(sc.R-30, 0),
+				G: maxUint8(sc.G-30, 0),
+				B: maxUint8(sc.B-30, 0),
+			}
+		} else if strings.Contains(name, scname+"_") || strings.Contains(name, "_"+scname) {
+			// normal color
+			c = sc
+		}
+	}
+
+	if c != nil {
+		// add name-color pair to map
+		m.mutex.Lock()
+		m.colors[name] = c
+		m.mutex.Unlock()
+	}
+
+	return c
 }
 
 func (m *ColorMapping) GetColors() map[string]*color.RGBA {
@@ -136,10 +194,6 @@ func NewColorMapping() *ColorMapping {
 	scanner := bufio.NewScanner(bytes.NewReader(data))
 	extendedpaletteblock := make(map[string]bool)
 
-	if err != nil {
-		panic(err)
-	}
-
 	for scanner.Scan() {
 		txt := strings.Trim(scanner.Text(), " ")
 
@@ -155,5 +209,6 @@ func NewColorMapping() *ColorMapping {
 		colors:               make(map[string]*color.RGBA),
 		extendedpaletteblock: extendedpaletteblock,
 		extendedpalette:      extendedpalette,
+		mutex:                &sync.RWMutex{},
 	}
 }
