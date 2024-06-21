@@ -19,8 +19,20 @@ func TestNewMapping(t *testing.T) {
 	assert.Equal(t, uint8(20), c.R)
 	assert.Equal(t, uint8(20), c.G)
 	assert.Equal(t, uint8(20), c.B)
+	assert.Equal(t, uint8(255), c.A)
+
+	c = m.GetColor("homedecor:piano", 0)
+	assert.NotNil(t, c)
+	assert.Equal(t, uint8(61), c.R)
+	assert.Equal(t, uint8(61), c.G)
+	assert.Equal(t, uint8(61), c.B)
+	assert.Equal(t, uint8(255), c.A)
 
 	c = m.GetColor("default:river_water_flowing", 0)
+	assert.Equal(t, uint8(39), c.R)
+	assert.Equal(t, uint8(90), c.G)
+	assert.Equal(t, uint8(106), c.B)
+	assert.Equal(t, uint8(128), c.A)
 	assert.NotNil(t, c)
 
 	c = m.GetColor("unifiedbricks:brickblock_multicolor_dark", 100)

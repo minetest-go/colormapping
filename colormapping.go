@@ -5,6 +5,7 @@ import (
 	"bytes"
 	"embed"
 	"errors"
+	"fmt"
 	"image/color"
 	"strconv"
 	"strings"
@@ -120,21 +121,26 @@ func (m *ColorMapping) LoadBytes(buffer []byte) (int, error) {
 		if len(parts) >= 4 {
 			r, err := strconv.ParseInt(parts[1], 10, 32)
 			if err != nil {
-				return 0, err
+				return 0, fmt.Errorf("red color component parse error '%s': %v", parts[1], err)
 			}
 
 			g, err := strconv.ParseInt(parts[2], 10, 32)
 			if err != nil {
-				return 0, err
+				return 0, fmt.Errorf("green color component parse error '%s': %v", parts[2], err)
 			}
 
 			b, err := strconv.ParseInt(parts[3], 10, 32)
 			if err != nil {
-				return 0, err
+				return 0, fmt.Errorf("blue color component parse error '%s': %v", parts[3], err)
 			}
 
 			a := int64(255)
-
+			if len(parts) > 4 {
+				a, err = strconv.ParseInt(parts[4], 10, 32)
+				if err != nil {
+					return 0, fmt.Errorf("alpha channer component parse error '%s': %v", parts[4], err)
+				}
+			}
 			c := color.RGBA{uint8(r), uint8(g), uint8(b), uint8(a)}
 			m.colors[parts[0]] = &c
 			count++
